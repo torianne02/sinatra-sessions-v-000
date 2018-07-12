@@ -53,7 +53,7 @@ class App < Sinatra::Base
       "Session ID has not been set!"
     end
 
-    erb :session
+    erb :set_session
   end
 
   get '/fetch_session_id' do
